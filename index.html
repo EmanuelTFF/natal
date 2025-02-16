@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--========== BOX ICONS ==========-->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>Página Inicial Responsiva</title>
+</head>
+<body>
+    <!--========== BOTÃO DE VOLTAR AO TOPO ==========-->
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class='bx bx-up-arrow-alt scrolltop__icon'></i>
+    </a>
+    
+    <!--========== CABEÇALHO ==========-->
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+            <a href="#" class="nav__logo">Presente de Natal</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active-link">Início</a></li>
+                    <li class="nav__item"><a href="#share" class="nav__link">Compartilhar</a></li>
+                    <li class="nav__item"><a href="#decoration" class="nav__link">Decorações</a></li>
+                    <li class="nav__item"><a href="#accessory" class="nav__link">Acessórios</a></li>
+
+                    <li><i class='bx bx-toggle-left change-theme' id="theme-button"></i></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-grid-alt'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--========== INÍCIO ==========-->
+        <section class="home" id="home">
+            <div class="home__container bd-container bd-grid">
+                <div class="home__img">
+                    <img src="assets/img/home.png" alt="">
+                </div>
+
+                <div class="home__data">
+                    <h1 class="home__title">Envie um Presente de Natal</h1>
+                    <p class="home__description">Neste fim de ano, envie um presente para quem você ama e compartilhe a felicidade do Natal.</p>
+                    <a href="#" class="button">Comece Agora</a>
+                </div>   
+            </div>
+        </section>
+
+        <!--========== COMPARTILHE ==========-->
+        <section class="share section bd-container" id="share">
+            <div class="share__container bd-grid">
+                <div class="share__data">
+                    <h2 class="section-title-center">Compartilhar é o Melhor <br> Presente que Você Pode Dar</h2>
+                    <p class="share__description">Compartilhar nesta época do ano é o melhor presente que você pode dar. Dê um presente ou compartilhe seu amor com as pessoas que você mais ama e celebre com muita felicidade.</p>
+                    <a href="#" class="button">Enviar um Presente</a>
+                </div>
+
+                <div class="share__img">
+                    <img src="assets/img/shared.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <!--========== DECORAÇÕES ==========-->
+        <section class="decoration section bd-container" id="decoration">
+            <h2 class="section-title">Dê Decorações de Natal <br> para Sua Casa</h2>
+            <div class="decoration__container bd-grid">
+                <div class="decoration__data">
+                    <img src="assets/img/decoration1.png" alt="" class="decoration__img">
+                    <h3 class="decoration__title">Sinos de Natal</h3>
+                    <a href="#" class="button button-link">Comprar Agora</a>
+                </div>
+
+                <div class="decoration__data">
+                    <img src="assets/img/decoration2.png" alt="" class="decoration__img">
+                    <h3 class="decoration__title">Doces Natalinos</h3>
+                    <a href="#" class="button button-link">Comprar Agora</a>
+                </div>
+
+                <div class="decoration__data">
+                    <img src="assets/img/decoration3.png" alt="" class="decoration__img">
+                    <h3 class="decoration__title">Árvores de Natal</h3>
+                    <a href="#" class="button button-link">Comprar Agora</a>
+                </div>
+            </div>
+        </section>
+
+        <!--========== ACESSÓRIOS ==========-->
+        <section class="accessory section bd-container" id="accessory">
+            <h2 class="section-title">Novos <br> Acessórios de Natal</h2>
+
+            <div class="accessory__container bd-grid">
+                <div class="accessory__content">
+                    <img src="assets/img/accessory1.png" alt="" class="accessory__img">
+                    <h3 class="accessory__title">Globo de Neve</h3>
+                    <span class="accessory__category">Acessório</span>
+                    <span class="accessory__preci">R$9,45</span>
+                    <a href="#" class="button accessory__button"><i class='bx bx-heart'></i></a>
+                </div>
+
+                <div class="accessory__content">
+                    <img src="assets/img/accessory2.png" alt="" class="accessory__img">
+                    <h3 class="accessory__title">Doce</h3>
+                    <span class="accessory__category">Acessório</span>
+                    <span class="accessory__preci">R$2,52</span>
+                    <a href="#" class="button accessory__button"><i class='bx bx-heart'></i></a>
+                </div>
+            </div>
+        </section>
+
+        <!--========== ENVIAR PRESENTE ==========-->
+        <section class="send section">
+            <div class="send__container bd-container bd-grid">
+                <div class="send__content">
+                    <h2 class="section-title-center send__title">Envie um Presente Agora</h2>
+                    <p class="send__description">Comece a presentear antes que as festas acabem. Insira o endereço da pessoa que receberá o presente.</p>
+                    <form action="">
+                        <div class="send__direction">
+                            <input type="text" placeholder="Endereço" class="send__input">
+                            <a href="#" class="button">Enviar</a>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="send__img">
+                    <img src="assets/img/send.png" alt="">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--========== RODAPÉ ==========-->
+    <footer class="footer section">
+        <div class="footer__container bd-container bd-grid">
+            <div class="footer__content">
+                <h3 class="footer__title">
+                    <a href="#" class="footer__logo">Presente de Natal</a>
+                </h3>
+                <p class="footer__description">Envie um presente e espalhe <br> felicidade</p>
+            </div>
+        </div>
+        <p class="footer__copy">&#169; 2025 Todos os direitos reservados</p>
+    </footer>
+
+    <!--========== SCROLL REVEAL ==========-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--========== MAIN JS ==========-->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
